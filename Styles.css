@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    height: 500px; 
+    overflow: hidden; 
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    font-family: "kumbh sans", sans-serif;
+    font-size: 12px;
+}
+
+.img-section{
+    display: block;
+    position: relative;
+}
+
+.background-image {
+    width: 600px; 
+    position: relative;
+    margin-top: -170px;
+    margin-left: -250px;
+    z-index: 0;
+}
+
+.main-image {
+    position: absolute;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: -400px;
+    z-index: 1;
+}
+
+.box-image {
+    position: fixed;
+    margin-top: 140px;
+    margin-left: -440px;
+    z-index: 2;
+}
+
+.main-content {
+    max-width: 370px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.accordian-heading {
+    font-family: "kumbh sans", sans-serif;
+    font-size: 12px;
+}
+
