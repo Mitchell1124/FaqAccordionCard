@@ -66,8 +66,17 @@ h1 {
     font-weight: bold;
 }
 
-.accordian-heading {
-    font-family: "kumbh sans", sans-serif;
+.accordion-button {
     font-size: 12px;
+    font-family: "kumbh sans", sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+};
+
+.accordion-button:not(.collapsed) {
+    background-color: red;
 }
+
+
+
 
