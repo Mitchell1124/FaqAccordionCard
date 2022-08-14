@@ -18,7 +18,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 900px;
-    height: 500px; 
+    height: 450px; 
     overflow: hidden; 
     background-color: #fff;
     margin-left: auto;
@@ -71,12 +71,24 @@ h1 {
     font-family: "kumbh sans", sans-serif;
     font-weight: bold;
     background-color: #fff;
+    box-shadow: 0;
 };
 
 .accordion-button:not(.collapsed) {
     background-color: red;
 }
 
+.accordion-button:focus {
+    background-color: #fff;
+}
+
+.accordion-button:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.attribution, a, a:hover {
+    color: #fff;
+}
 
 
 
